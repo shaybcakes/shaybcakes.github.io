@@ -1,0 +1,649 @@
+2025-01-27 21:20:38.089 - Main Thread ->  Timezone (local - UTC): -4h
+2025-01-27 21:20:38.093 - Main Thread ->  App Version: 0.12.23.28
+2025-01-27 21:20:38.101 - Main Thread ->  Running application with arguments: 
+2025-01-27 21:20:38.101 - Main Thread ->  Runtime Framework: .NET 8.0.2
+2025-01-27 21:20:38.326 - Main Thread ->  Pushing Core Configs
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.AI.Kythera.Definitions.KytheraCoreConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","NumberOfJobThreads": 4}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Core.CoreConfigurations.AllowMultipleConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","AllowMultiple": false}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Core.CoreConfigurations.AutoTestConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","Automated": false,"SkipRender": false,"MinimalisticVisual": false}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Core.CoreConfigurations.BlockDataGeneratorsConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","AssertOnEmptyOccupancy": true,"ValidateSharedOccupancy": false,"LoggingEnabled": false,"MountPointsEnabled": true,"MountPointsDebugDataEnabled": false}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Core.CoreConfigurations.DeterministicRuntimeConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","DeterministicRuntime": false}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Core.CoreConfigurations.ExtRenderLeaksConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","Enabled": false}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Core.CoreConfigurations.ProfileOptimizationConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","SkipProfileOptimization": false}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Core.CoreConfigurations.StatsRecorderConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","PerformanceTestRun": false,"PerformanceTestRecordRate": 0,"RecordFrames": 0}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Core.EngineComponents.LimitedDefSetConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","UseLimitedDefs": true}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Core.Platform.CrashReporting.CrashHandlerCoreConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","EnableCrashReportingOverride": null}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Voxels.Client.CoreConfigurations.VoxelRenderSettingsConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","EnableTesselation": true,"ClipmapQualitySettings": null}}
+{"$Bundles": {"Game2": "0.12.23.28","System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "Game2:Keen.Game2.Client.RuntimeSystems.CoreScenes.GameRenderComponentCoreConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","DrawAlphaBanner": true,"DrawGameVersion": true}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Render.CoreConfigurations.RenderConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","AnyResourceErrorFatal": false,"AnyShaderErrorFatal": false,"AssertOnShaderMissingInContent": false,"AssertOnCompilation": false,"ApplyRenderOptionsPart": true,"DefaultFullScreen": true,"DefaultVSyncMode": "VSync","EnableShaderRuntimeAsserts": false,"EnableAGS": false,"EnableRenderGPUDebugLayer": false,"EnableRenderDebugLayer": false,"EnableSceneRendering": true,"ForceAllAdaptersSupported": false,"EnableStablePowerState": false,"EnableRenderThreadHighPriority": true,"WarningAsError": false,"GenerateRawShaders": false,"DetailedRenderLogging": false,"TextureRenderLogging": true,"UseUserShaderCacheOnly": false}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Render.CoreConfigurations.RenderDisplayDefaultsConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000"}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Render.FrameData.FrameDataConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","LogCommandBuffers": false,"OrderCommandBufferLog": false}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Render.Options.ForcedDisplayOptionsConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","Resolution": null,"FullScreen": null,"VSync": null,"EnableStretching": null,"TopMost": false}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.DCS.DCSCoreConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","JobOrderSeed": 0,"LogJobs": false}}
+{"$Bundles": {"Game2": "0.12.23.28","System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "Game2:Keen.Game2.Simulation.GameSystems.GameCoreConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","TypeOfEntityToSpawnOnStart": "Character","StartDefaultWorld": false,"SkipMainMenu": false,"SpawnPillars": true,"DumpJobs": false,"SaveValidationEnabled": false,"AllowCorruptedGrids": true,"HighlightCorruptedGrids": false}}
+{"$Bundles": {"Game2": "0.12.23.28","System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "Game2:Keen.Game2.Simulation.RuntimeSystems.Saves.SaveCoreConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","AutoSaveEnabled": true}}
+{"$Bundles": {"Game2": "0.12.23.28","System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "Game2:Keen.Game2.Simulation.WorldObjects.CubeGrids.CubeGridCoreConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","AllowCorruptedGrids": false,"HighlightCorruptedGrids": false}}
+{"$Bundles": {"Game2": "0.12.23.28","System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "Game2:Keen.Game2.Simulation.WorldObjects.Tools.ToolbarBlockSelectionConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","UseGScreenSizeCategories": false,"RememberLastSelectedBlock": true,"HardRememberLastSelectedBlock": false}}
+{"$Bundles": {"System.Runtime": "1.0.0.0","VRage": "0.12.23.28"},"$Type": "VRage:Keen.VRage.Client.EngineComponents.StatsPageConfigurationObjectBuilder","$Value": {"Guid": "00000000-0000-0000-0000-000000000000","DefaultStatsPage": 0}}
+2025-01-27 21:20:38.330 - Main Thread ->  Info: Started loading definition set CoreConfigurations
+2025-01-27 21:20:38.416 - Main Thread ->  Info: Finished loading definition set CoreConfigurations
+2025-01-27 21:20:38.423 - Main Thread ->  Sorting jobs for scene of 25 jobs with seed '0'
+2025-01-27 21:20:38.497 - Main Thread ->  Configuring worker pool as: (workerCount: 14, highPriorityBias: 0, forceSynchronousExecution: False)
+2025-01-27 21:20:38.497 - Main Thread ->  Workers configured.
+2025-01-27 21:20:38.498 - Main Thread ->  [Crash Handler] : Logging runtime paths data
+2025-01-27 21:20:38.498 - Main Thread ->  Command line argument 0: Z:\media\zdrive\SteamLibrary\steamapps\common\SpaceEngineers2\Game2\SpaceEngineers2.dll
+2025-01-27 21:20:38.498 - Main Thread ->  Working directory: Z:\media\zdrive\SteamLibrary\steamapps\common\SpaceEngineers2
+2025-01-27 21:20:38.498 - Main Thread ->  App Data Path: C:\users\steamuser\AppData\Roaming\SpaceEngineers2
+2025-01-27 21:20:38.501 - Main Thread ->  Crash reporting setup: EnabledForUsers -- Debugger attached: False -- Development process: False -- IsLocalBuild: False
+2025-01-27 21:20:38.501 - Main Thread ->  Native crash tracking path set to C:\users\steamuser\AppData\Local\Temp\SpaceEngineers2\ProcessFailureDump.dmp
+2025-01-27 21:20:38.526 - Main Thread ->  Attempting to report a sudden death but couldn't find any suitable log to use for a sudden death crash. Aborting the report.
+2025-01-27 21:20:38.552 - Main Thread ->  Info: Searching for project 'Guid: 079da0f2-4755-491e-8688-b68b91b2fad3, ModId: , ServiceId: '
+ at path 'Z:\media\zdrive\SteamLibrary\steamapps\common\SpaceEngineers2\GameData'
+  in 'Z:\media\zdrive\SteamLibrary\steamapps\common\SpaceEngineers2\GameData\Vanilla\Vanilla.vrgproj'; project ID mismatch
+ at path 'Z:\media\zdrive\SteamLibrary\steamapps\common\VRage\GameData'; directory does not exist
+ at path 'Z:\media\zdrive\SteamLibrary\steamapps\common\SpaceEngineers2\VRage\GameData'
+  in 'Z:\media\zdrive\SteamLibrary\steamapps\common\SpaceEngineers2\VRage\GameData\Engine\Engine.vrgproj'; found
+
+2025-01-27 21:20:38.683 - Main Thread ->  Info: Reading contentcache.json for mounted path 079da0f2-4755-491e-8688-b68b91b2fad3
+2025-01-27 21:20:38.697 - Main Thread ->  Info: Reading contentcache.json for mounted path 56dacb76-e25e-468a-9432-21964a9a0569
+2025-01-27 21:20:40.128 - Main Thread ->  Info: Started loading definition set Engine
+2025-01-27 21:20:40.425 - Main Thread ->  Info: Finished loading definition set Engine
+2025-01-27 21:20:40.497 - Main Thread ->  Adjusting Main Memory Streaming Budget to 3,171,228,672 bytes.
+2025-01-27 21:20:40.514 - Main Thread ->  Environment.ProcessorCount: 16
+2025-01-27 21:20:40.514 - Main Thread ->  RuntimeInformation.OSDescription: Microsoft Windows 10.0.19043
+2025-01-27 21:20:40.514 - Main Thread ->  Environment.CommandLine: Z:\media\zdrive\SteamLibrary\steamapps\common\SpaceEngineers2\Game2\SpaceEngineers2.dll
+2025-01-27 21:20:40.514 - Main Thread ->  Environment.CurrentDirectory: Z:\media\zdrive\SteamLibrary\steamapps\common\SpaceEngineers2
+2025-01-27 21:20:40.529 - Main Thread ->  Cannot detect CPU via management interface, using fallback. Reason: System.TypeInitializationException: The type initializer for 'System.Management.ManagementPath' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'System.Management.WmiNetUtilsHelper' threw an exception.
+ ---> System.ComponentModel.Win32Exception (126): Failed to load required native library 'C:\windows\Microsoft.NET\Framework64\v4.0.30319\wminet_utils.dll'.
+   at System.Management.WmiNetUtilsHelper..cctor()
+   --- End of inner exception stack trace ---
+   at System.Management.MTAHelper.IsNoContextMTA()
+   at System.Management.MTAHelper.CreateInMTA(Type type)
+   at System.Management.ManagementPath.CreateWbemPath(String path)
+   at System.Management.ManagementPath..ctor(String path)
+   at System.Management.ManagementPath..cctor()
+   --- End of inner exception stack trace ---
+   at System.Management.ManagementPath.get_DefaultPath()
+   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementScope._Clone(ManagementScope scope)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at System.Management.ManagementObjectSearcher..ctor(String queryString)
+   at Keen.VRage.Platform.Windows.Sys.SystemHelper.GetInfoCPU(UInt32& physicalCores, UInt32& logicalCores)
+2025-01-27 21:20:40.529 - Main Thread ->  CPU: AMD Ryzen 7 5800X 8-Core Processor
+2025-01-27 21:20:40.529 - Main Thread ->  IntPtr.Size: 8
+2025-01-27 21:20:40.529 - Main Thread ->  Default Culture: 
+2025-01-27 21:20:40.529 - Main Thread ->  Default UI Culture: 
+2025-01-27 21:20:40.530 - Main Thread ->  LogEnvironmentInformation - START
+2025-01-27 21:20:40.530 - Main Thread ->     Error occured during enumerating environment information. Application is continuing. Exception: System.TypeInitializationException: The type initializer for 'System.Management.ManagementPath' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'System.Management.WmiNetUtilsHelper' threw an exception.
+ ---> System.ComponentModel.Win32Exception (126): Failed to load required native library 'C:\windows\Microsoft.NET\Framework64\v4.0.30319\wminet_utils.dll'.
+   at System.Management.WmiNetUtilsHelper..cctor()
+   --- End of inner exception stack trace ---
+   at System.Management.MTAHelper.IsNoContextMTA()
+   at System.Management.MTAHelper.CreateInMTA(Type type)
+   at System.Management.ManagementPath.CreateWbemPath(String path)
+   at System.Management.ManagementPath..ctor(String path)
+   at System.Management.ManagementPath..cctor()
+   --- End of inner exception stack trace ---
+   at System.Management.ManagementPath.get_DefaultPath()
+   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementScope._Clone(ManagementScope scope)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at System.Management.ManagementObjectSearcher..ctor(String queryString)
+   at Keen.VRage.Platform.Windows.Sys.SystemLogHelper.LogEnvironmentInformation(Log log)
+2025-01-27 21:20:40.531 - Main Thread ->  LogEnvironmentInformation - END
+2025-01-27 21:20:40.532 - Main Thread ->  Cannot detect CPU via management interface, using fallback. Reason: System.TypeInitializationException: The type initializer for 'System.Management.ManagementPath' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'System.Management.WmiNetUtilsHelper' threw an exception.
+ ---> System.ComponentModel.Win32Exception (126): Failed to load required native library 'C:\windows\Microsoft.NET\Framework64\v4.0.30319\wminet_utils.dll'.
+   at System.Management.WmiNetUtilsHelper..cctor()
+   --- End of inner exception stack trace ---
+   at System.Management.MTAHelper.IsNoContextMTA()
+   at System.Management.MTAHelper.CreateInMTA(Type type)
+   at System.Management.ManagementPath.CreateWbemPath(String path)
+   at System.Management.ManagementPath..ctor(String path)
+   at System.Management.ManagementPath..cctor()
+   --- End of inner exception stack trace ---
+   at System.Management.ManagementPath.get_DefaultPath()
+   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementScope._Clone(ManagementScope scope)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at System.Management.ManagementObjectSearcher..ctor(String queryString)
+   at Keen.VRage.Platform.Windows.Sys.SystemHelper.GetInfoCPU(UInt32& physicalCores, UInt32& logicalCores)
+2025-01-27 21:20:40.575 - Main Thread ->  Initialize Voxels
+2025-01-27 21:20:40.916 - Main Thread ->  Info: Preset auto-detection is done and it is set 'High'
+2025-01-27 21:20:40.917 - Main Thread ->  RenderOptionsPart2.Preset = High
+2025-01-27 21:20:41.033 - Main Thread ->  Sorting jobs for scene of 118 jobs with seed '0'
+2025-01-27 21:20:41.045 - Main Thread ->  Initializing Render System
+2025-01-27 21:20:41.057 - Main Thread ->  Render Device initialized
+2025-01-27 21:20:41.058 - Main Thread ->  LOADING_TIME|Render_Init|180.42350000000002
+2025-01-27 21:20:41.058 - Main Thread ->  LOADING_TIME_FULL|Render_Init|415.5658
+2025-01-27 21:20:41.073 - Main Thread ->  Initialize DebugDraw
+2025-01-27 21:20:41.097 - Main Thread ->  0 Mapping added to the GameInputProcessorComponent
+2025-01-27 21:20:41.099 - Main Thread ->  Initialize UI
+2025-01-27 21:20:41.100 - Main Thread ->  Initialize Stats
+2025-01-27 21:20:41.101 - Main Thread ->  Initialize DebugMenu
+2025-01-27 21:20:41.167 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FSR
+  ArmorBevel = Enabled
+  Raytracing = Low
+  Shadow = High
+  Lighting = High
+  Texture = High
+  Terrain = High
+  Parallax = High
+  Particles = High
+  RenderingDistance = High
+}
+
+2025-01-27 21:20:41.283 - Main Thread ->  Info: Started loading definition set Core
+2025-01-27 21:20:41.992 - Render thread ->  LOADING_TIME|Render_SystemCoreInit|835.5272
+2025-01-27 21:20:42.890 - Render thread ->  LOADING_TIME|Render_CreateDevice|924.6342999999999
+2025-01-27 21:20:42.890 - Render thread ->  LOADING_TIME_FULL|Render_CreateDevice|1820.2245
+2025-01-27 21:20:42.891 - Render thread ->  Client frequency set to: 60.00024Hz
+2025-01-27 21:20:42.891 - Render thread ->  Render loop frequency capped to: 60.00024Hz
+2025-01-27 21:20:42.891 - Render thread ->  LOADING_TIME|Render_Window|13.58459999999991
+2025-01-27 21:20:42.891 - Render thread ->  LOADING_TIME_FULL|Render_Window|1835.0407
+2025-01-27 21:20:42.969 - Main Thread ->  26 Layers added to the GameInputProcessorComponent
+2025-01-27 21:20:42.971 - Main Thread ->  201 Mapping added to the GameInputProcessorComponent
+2025-01-27 21:20:42.971 - Main Thread ->  5 Alias added to the GameInputProcessorComponent
+2025-01-27 21:20:43.036 - Main Thread ->  [Audio]: Loading Audio Configuration
+2025-01-27 21:20:43.040 - Render thread ->  LOADING_TIME|Render_FirstFrame|120.4567
+2025-01-27 21:20:43.040 - Render thread ->  LOADING_TIME|Render|1267.9881999999998
+2025-01-27 21:20:43.040 - Render thread ->  LOADING_TIME_FULL|Render|2398.7207
+2025-01-27 21:20:43.210 - Main Thread ->  [Audio]: Loading master bank.
+2025-01-27 21:20:43.253 - Main Thread ->  [Audio]: Loading bank f46b0232-4fb8-4c05-96f2-0aba718d8aa7.
+2025-01-27 21:20:43.353 - Main Thread ->  [Audio]: Loading bank ab437d59-7f3e-49f9-98a9-efff6eeb70fa.
+2025-01-27 21:20:43.402 - Main Thread ->  [Audio]: Loading bank 6e80ff5c-5d35-48ae-90c7-290a705d3603.
+2025-01-27 21:20:43.444 - Main Thread ->  [Audio]: Loading bank e72cf2da-fe5a-4018-b993-fe6f9cbf6349.
+2025-01-27 21:20:43.486 - Main Thread ->  [Audio]: Reloading paths.
+2025-01-27 21:20:43.509 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FSR
+  ArmorBevel = Enabled
+  Raytracing = Low
+  Shadow = High
+  Lighting = High
+  Texture = High
+  Terrain = High
+  Parallax = High
+  Particles = High
+  RenderingDistance = High
+}
+
+2025-01-27 21:20:43.510 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FSR
+  ArmorBevel = Enabled
+  Raytracing = Low
+  Shadow = High
+  Lighting = High
+  Texture = High
+  Terrain = High
+  Parallax = High
+  Particles = High
+  RenderingDistance = High
+}
+
+2025-01-27 21:20:43.510 - Main Thread ->  Info: Finished loading definition set Core
+2025-01-27 21:20:44.216 - Main Thread ->  Info: [Input]: Device connected: Mouse[6f1d2b60-d5a0-11cf-bfc7-444553540000]
+2025-01-27 21:20:44.229 - Main Thread ->  Info: [Input]: Device connected: Keyboard[6f1d2b61-d5a0-11cf-bfc7-444553540000]
+2025-01-27 21:20:47.906 - Main Thread ->  LOADING_TIME|Application|10257.4391
+2025-01-27 21:20:47.907 - Main Thread ->  LOADING_TIME_FULL|Application|11049.2109
+2025-01-27 21:20:47.907 - Main Thread ->  LOADING_TIME|Main|10307.7245
+2025-01-27 21:20:47.907 - Main Thread ->  LOADING_TIME_FULL|Main|11099.4963
+2025-01-27 21:20:47.942 - Main Thread ->  Cannot detect CPU frequency via management interface. System.TypeInitializationException: The type initializer for 'System.Management.ManagementPath' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'System.Management.WmiNetUtilsHelper' threw an exception.
+ ---> System.ComponentModel.Win32Exception (126): Failed to load required native library 'C:\windows\Microsoft.NET\Framework64\v4.0.30319\wminet_utils.dll'.
+   at System.Management.WmiNetUtilsHelper..cctor()
+   --- End of inner exception stack trace ---
+   at System.Management.MTAHelper.IsNoContextMTA()
+   at System.Management.MTAHelper.CreateInMTA(Type type)
+   at System.Management.ManagementPath.CreateWbemPath(String path)
+   at System.Management.ManagementPath..ctor(String path)
+   at System.Management.ManagementPath..cctor()
+   --- End of inner exception stack trace ---
+   at System.Management.ManagementPath.get_DefaultPath()
+   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementScope._Clone(ManagementScope scope)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at System.Management.ManagementObjectSearcher..ctor(String queryString)
+   at Keen.VRage.Platform.Windows.Sys.SystemHelper.GetMaxClockSpeedCpu()
+2025-01-27 21:20:49.091 - VRageWorker 11 ->  Info: Started loading definition set World
+2025-01-27 21:20:54.586 - VRageWorker 11 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:e15a14fb-4280-42f1-81cb-768feab9691f Vanilla\Blocks\LandingGear\LandingGear\100\LandingGear100_ServerComposition.def". Member $Root.Ids[8]:
+	Block contains 4 fractures which is above the limit of 2 for a block of size 1.00
+2025-01-27 21:20:54.590 - VRageWorker 0 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:0695ae2a-4289-43ba-9fd6-052957c28e13 Vanilla\Blocks\GatlingCannon\GatlingCannon\200\GatlingCannon200_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 9 fractures which is above the limit of 5 for a block of size 1.91
+2025-01-27 21:20:54.591 - VRageWorker 13 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:49dece35-7926-43b1-9f21-9fe728117627 Vanilla\Blocks\GatlingCannon\GatlingCannon\200\GatlingCannon200_ClientComposition.def". Member $Root.Ids[5]:
+	Block contains 9 fractures which is above the limit of 5 for a block of size 1.91
+2025-01-27 21:20:54.591 - VRageWorker 4 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:4df599f7-dea6-4f5b-b517-91e0d4aacb95 Vanilla\Blocks\Lights\Interior\50\InteriorLight50_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 2 fractures which is above the limit of 1 for a block of size 0.50
+2025-01-27 21:20:54.594 - VRageWorker 10 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:f3fa7214-4c64-4f33-8b02-456f1b1f4eea Vanilla\Blocks\Lights\Interior\50\InteriorLight50_ClientComposition.def". Member $Root.Ids[4]:
+	Block contains 2 fractures which is above the limit of 1 for a block of size 0.50
+2025-01-27 21:20:54.594 - VRageWorker 6 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:bdc9716f-8b96-4c72-b2a1-6bbf8a651e90 Vanilla\Blocks\Gyroscopes\Gyroscopes\50\Gyroscope50_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 2 fractures which is above the limit of 1 for a block of size 0.50
+2025-01-27 21:20:54.596 - VRageWorker 0 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:b4d170be-6b9c-44fe-8a72-7254a2ccaa68 Vanilla\Blocks\Thrusters\Ion\100\IonThruster100_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 4 fractures which is above the limit of 2 for a block of size 1.00
+2025-01-27 21:20:54.609 - VRageWorker 10 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:4030ca9e-c269-479c-bb2a-a6b64c2411fc Vanilla\Blocks\Cockpit\Cockpit\150\Cockpit150_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 7 fractures which is above the limit of 2 for a block of size 1.48
+2025-01-27 21:20:54.609 - VRageWorker 1 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:d9eb5e22-5cbf-4f41-86df-8de74933c5ea Vanilla\Blocks\ButtonPanels\ButtonPanels\250\ButtonPanel250_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 7 fractures which is above the limit of 5 for a block of size 2.49
+2025-01-27 21:20:54.610 - VRageWorker 5 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:f2202f8e-452b-49c1-8be8-17c6ad92f5c6 Vanilla\Blocks\Doors\SlideDoorNarrow\250\SlidingDoorNarrow250_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 8 fractures which is above the limit of 5 for a block of size 2.49
+2025-01-27 21:20:54.610 - VRageWorker 6 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:07912b12-9f4f-4e98-90b1-755027b6fb6d Vanilla\Blocks\ButtonPanels\ButtonPanels\250\ButtonPanel250_ClientComposition.def". Member $Root.Ids[5]:
+	Block contains 7 fractures which is above the limit of 5 for a block of size 2.49
+2025-01-27 21:20:54.611 - VRageWorker 0 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:eb6afe2b-d031-476f-9ca8-58743e68902f Vanilla\Blocks\Doors\SlideDoorNarrow\250\SlidingDoorNarrow250_ClientComposition.def". Member $Root.Ids[5]:
+	Block contains 8 fractures which is above the limit of 5 for a block of size 2.49
+2025-01-27 21:20:54.674 - VRageWorker 1 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:ac386800-9f5e-4aaf-a3e7-9075dc4f0f30 Vanilla\Blocks\LandingGear\LandingGear\100\LandingGear100_ClientComposition.def". Member $Root.Ids[7]:
+	Block contains 4 fractures which is above the limit of 2 for a block of size 1.00
+2025-01-27 21:20:54.718 - VRageWorker 9 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:35d3221d-27e2-4d5a-b4b8-f697b3f8db32 Vanilla\Blocks\Thrusters\Ion\100\IonThruster100_ClientComposition.def". Member $Root.Ids[4]:
+	Block contains 4 fractures which is above the limit of 2 for a block of size 1.00
+2025-01-27 21:20:54.720 - VRageWorker 7 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:6b13f876-c695-4b23-b669-b280bec96ca1 Vanilla\Blocks\Gyroscopes\Gyroscopes\50\Gyroscope50_ClientComposition.def". Member $Root.Ids[5]:
+	Block contains 2 fractures which is above the limit of 1 for a block of size 0.50
+2025-01-27 21:20:54.741 - VRageWorker 13 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:806005e8-3943-483d-8272-6063b44dd165 Vanilla\Blocks\Cockpit\Cockpit\150\Cockpit150_ClientComposition.def". Member $Root.Ids[4]:
+	Block contains 7 fractures which is above the limit of 2 for a block of size 1.48
+2025-01-27 21:20:54.871 - VRageWorker 3 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:86748fb1-14b5-4d75-819e-c34529c340ad Vanilla\Blocks\Handrail\Straight\250\Handrail250_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 6 fractures which is above the limit of 5 for a block of size 2.41
+2025-01-27 21:20:54.871 - VRageWorker 12 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:b1db4b6a-3901-40eb-95df-eeeed5db465f Vanilla\Blocks\Handrail\Straight\250\Handrail250_ClientComposition.def". Member $Root.Ids[5]:
+	Block contains 6 fractures which is above the limit of 5 for a block of size 2.41
+2025-01-27 21:20:54.871 - VRageWorker 8 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:4500cfde-b999-42aa-970f-827a941dedfc Vanilla\Blocks\Handrail\Straight\125\Handrail125_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 4 fractures which is above the limit of 2 for a block of size 1.16
+2025-01-27 21:20:54.872 - VRageWorker 5 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:4f9b7db1-2432-4eca-a0e7-41009cd33a57 Vanilla\Blocks\Handrail\Straight\125\Handrail125_ClientComposition.def". Member $Root.Ids[5]:
+	Block contains 4 fractures which is above the limit of 2 for a block of size 1.16
+2025-01-27 21:20:54.873 - VRageWorker 12 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:3f07d84e-ed36-4eb0-aea2-0b9fafa68cbe Vanilla\Blocks\Handrail\Diagnoal\250\HandrailDiagonal250_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 6 fractures which is above the limit of 5 for a block of size 2.40
+2025-01-27 21:20:54.873 - VRageWorker 10 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:0651f84b-1021-47de-bf3d-68a932765871 Vanilla\Blocks\Handrail\Diagnoal\250\HandrailDiagonal250_ClientComposition.def". Member $Root.Ids[5]:
+	Block contains 6 fractures which is above the limit of 5 for a block of size 2.40
+2025-01-27 21:20:54.874 - VRageWorker 1 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:1516e120-9374-49d9-b52e-0e4f66825085 Vanilla\Blocks\Handrail\Corner\250\HandrailCorner250_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 12 fractures which is above the limit of 5 for a block of size 2.42
+2025-01-27 21:20:54.874 - VRageWorker 6 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:10e97a11-8425-4090-a0df-aa14e5f69885 Vanilla\Blocks\Handrail\Corner\250\HandrailCorner250_ClientComposition.def". Member $Root.Ids[5]:
+	Block contains 12 fractures which is above the limit of 5 for a block of size 2.42
+2025-01-27 21:20:54.874 - VRageWorker 12 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:9c81141e-fe59-4a61-ab7d-98400adc9003 Vanilla\Blocks\Handrail\Corner\125\HandrailCornerHalf125_ClientComposition.def". Member $Root.Ids[5]:
+	Block contains 8 fractures which is above the limit of 2 for a block of size 1.17
+2025-01-27 21:20:54.875 - VRageWorker 10 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:af63a471-457b-4d38-8a28-7c227a925493 Vanilla\Blocks\Handrail\Corner\125\HandrailCornerHalf125_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 8 fractures which is above the limit of 2 for a block of size 1.17
+2025-01-27 21:20:54.876 - VRageWorker 2 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:ad112ca6-6e46-4e9d-b986-bdbb79b0e5d8 Vanilla\Blocks\Walls\Corner\250\InteriorWallCorner250_ClientComposition.def". Member $Root.Ids[5]:
+	Block contains 8 fractures which is above the limit of 5 for a block of size 2.49
+2025-01-27 21:20:54.878 - VRageWorker 6 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:56f6a42e-55da-42e0-a072-a14a0b5ca6f1 Vanilla\Blocks\Walls\Corner\250\InteriorWallCorner250_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 8 fractures which is above the limit of 5 for a block of size 2.49
+2025-01-27 21:20:54.901 - VRageWorker 5 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:2e3ed033-9e9c-4755-a255-d8cef49b22a8 Vanilla\Blocks\Pillars\CurvedThin\250\InteriorWallPillarCurvedThin250_ClientComposition.def". Member $Root.Ids[5]:
+	Block contains 7 fractures which is above the limit of 5 for a block of size 2.47
+2025-01-27 21:20:54.901 - VRageWorker 7 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:8aa2b903-efac-4f20-8714-a4e4c6dccb93 Vanilla\Blocks\Pillars\CurvedThin\250\InteriorWallPillarCurvedThin250_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 7 fractures which is above the limit of 5 for a block of size 2.47
+2025-01-27 21:20:54.903 - VRageWorker 5 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:78c5b1cb-15ac-4d60-aada-a43b8cd97970 Vanilla\Blocks\CoverWalls\CoverWalls\125\HalfCoverWall125_ClientComposition.def". Member $Root.Ids[5]:
+	Block contains 3 fractures which is above the limit of 2 for a block of size 1.24
+2025-01-27 21:20:54.904 - VRageWorker 11 ->  Info: During definition validation of definition "Keen.VRage.DCS.Definitions.EntityCompositeDefinition:d1f8aacb-40da-413d-b1e1-2c9f06fcd5ca Vanilla\Blocks\CoverWalls\CoverWalls\125\HalfCoverWall125_ServerComposition.def". Member $Root.Ids[4]:
+	Block contains 3 fractures which is above the limit of 2 for a block of size 1.24
+2025-01-27 21:20:56.005 - Main Thread ->  Elastic http response error GatewayTimeout: {"ok":false,"message":"Post \"https://10.11.135.237:18615/events-tnt-prod/_doc\": dial tcp 10.11.135.237:18615: i/o timeout"}
+
+2025-01-27 21:21:02.359 - Main Thread ->  LOCALIZATION WARNING: Could not find key Concordia Research Facility in the culture set en-US. Evaluating to string id.
+2025-01-27 21:21:02.380 - Main Thread ->  LOCALIZATION WARNING: Could not find key To create a new grid in free space press 'J'. in the culture set en-US. Evaluating to string id.
+2025-01-27 21:21:03.315 - Main Thread ->  Info: Blocks occupancy and mount points loaded in 615 ms (133 block definitions patched)
+2025-01-27 21:21:03.418 - Main Thread ->  Info: Finished loading definition set World
+2025-01-27 21:21:03.973 - Main Thread ->  Sorting jobs for scene of 332 jobs with seed '0'
+2025-01-27 21:21:04.307 - Main Thread ->  Loading save $Content:CRF
+2025-01-27 21:21:06.214 - Main Thread ->  Sorting jobs for scene of 296 jobs with seed '0'
+2025-01-27 21:21:06.447 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid256-005.vx2'
+2025-01-27 21:21:06.538 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid64-002.vx2'
+2025-01-27 21:21:06.544 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid_composite_64_02.vx2'
+2025-01-27 21:21:06.549 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid_composite_64_01.vx2'
+2025-01-27 21:21:06.553 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid_composite_64_03.vx2'
+2025-01-27 21:21:06.558 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid64-001.vx2'
+2025-01-27 21:21:06.562 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid64-003.vx2'
+2025-01-27 21:21:06.567 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid128-002.vx2'
+2025-01-27 21:21:06.577 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid_composite_128_01.vx2'
+2025-01-27 21:21:06.630 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid256-015.vx2'
+2025-01-27 21:21:06.683 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid64-004.vx2'
+2025-01-27 21:21:06.687 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid64-006.vx2'
+2025-01-27 21:21:06.690 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid128-005.vx2'
+2025-01-27 21:21:06.700 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid128-003.vx2'
+2025-01-27 21:21:06.742 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid256-014.vx2'
+2025-01-27 21:21:06.788 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid64-005.vx2'
+2025-01-27 21:21:06.791 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid_composite_128_03.vx2'
+2025-01-27 21:21:06.805 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid256-006.vx2'
+2025-01-27 21:21:06.876 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid_composite_256_05.vx2'
+2025-01-27 21:21:06.916 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid128-001.vx2'
+2025-01-27 21:21:06.928 - VRageWorker 6 ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid_composite_128_04.vx2'
+2025-01-27 21:21:08.971 - Main Thread ->  Sorting jobs for scene of 328 jobs with seed '0'
+2025-01-27 21:21:10.719 - Main Thread ->  Elastic http response error ServiceUnavailable: {"ok":false,"message":"The requested resource is currently unavailable."}
+
+2025-01-27 21:21:21.802 - Main Thread ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid256-017.vx2'
+2025-01-27 21:21:21.837 - Main Thread ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid128-006.vx2'
+2025-01-27 21:21:21.846 - Main Thread ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid128-007.vx2'
+2025-01-27 21:21:21.858 - Main Thread ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid256-018.vx2'
+2025-01-27 21:21:21.900 - Main Thread ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid_composite_128_05.vx2'
+2025-01-27 21:21:21.913 - Main Thread ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid_round_500_01.vx2'
+2025-01-27 21:21:22.156 - Main Thread ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid128-004.vx2'
+2025-01-27 21:21:22.166 - Main Thread ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid_round_500_04.vx2'
+2025-01-27 21:21:22.289 - Main Thread ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid_potato_500_06.vx2'
+2025-01-27 21:21:22.353 - Main Thread ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid_round_500_05.vx2'
+2025-01-27 21:21:22.433 - Main Thread ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid256-016.vx2'
+2025-01-27 21:21:22.451 - Main Thread ->  Loading voxel storage from file 'Content:56dacb76-e25e-468a-9432-21964a9a0569\environment\asteroids\asteroid256-019.vx2'
+2025-01-27 21:21:25.695 - Main Thread ->  LOCALIZATION WARNING: Could not find key  in the culture set en-US. Evaluating to string id.
+2025-01-27 21:21:31.701 - Main Thread ->  STATS_RECORDING_LEGEND,FRAME,TIME,PROCESS,GCTOTAL,GCDELTA,AVAILABLEMEMORY
+2025-01-27 21:21:31.701 - Main Thread ->  STATS_RECORDING,1664,27.7332224,55.0314054,644674648,0,Low
+2025-01-27 21:21:31.702 - Main Thread ->  LOADING_TIME|Session|29339.989
+2025-01-27 21:21:39.107 - Main Thread ->  Info: Active device changed to Keyboard
+2025-01-27 21:21:45.388 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FSR
+  ArmorBevel = Enabled
+  Raytracing = Low
+  Shadow = High
+  Lighting = High
+  Texture = High
+  Terrain = High
+  Parallax = High
+  Particles = High
+  RenderingDistance = High
+}
+
+2025-01-27 21:21:45.396 - Main Thread ->  LOCALIZATION WARNING: Could not find key On in the culture set en-US. Evaluating to string id.
+2025-01-27 21:21:45.396 - Main Thread ->  LOCALIZATION WARNING: Could not find key Off in the culture set en-US. Evaluating to string id.
+2025-01-27 21:21:51.529 - Main Thread ->  Elastic http response error ServiceUnavailable: {"ok":false,"message":"The requested resource is currently unavailable."}
+
+2025-01-27 21:21:56.411 - Main Thread ->  Elastic http response error ServiceUnavailable: {"ok":false,"message":"The requested resource is currently unavailable."}
+
+2025-01-27 21:21:58.478 - Main Thread ->  Elastic http response error ServiceUnavailable: {"ok":false,"message":"The requested resource is currently unavailable."}
+
+2025-01-27 21:21:59.462 - Main Thread ->  Elastic http response error ServiceUnavailable: {"ok":false,"message":"The requested resource is currently unavailable."}
+
+2025-01-27 21:22:00.745 - Main Thread ->  Elastic http response error ServiceUnavailable: {"ok":false,"message":"The requested resource is currently unavailable."}
+
+2025-01-27 21:22:07.484 - Main Thread ->  Elastic http response error GatewayTimeout: {"ok":false,"message":"Post \"https://10.11.174.54:18978/behaviors-tnt-prod/_doc\": dial tcp 10.11.174.54:18978: i/o timeout"}
+
+2025-01-27 21:22:07.705 - Main Thread ->  Elastic http response error ServiceUnavailable: {"ok":false,"message":"The requested resource is currently unavailable."}
+
+2025-01-27 21:22:09.001 - Main Thread ->  STATISTICS_LEGEND,time,SimulationFrameCounter,RenderFrameCounter,ProcessMemoryTotal,GCMemoryTotal,GCMemoryDelta,MainThreadTime,ClientSessionTime,ServerSessionTime,RenderThreadTime,GPUTime
+2025-01-27 21:22:09.001 - Main Thread ->  STATISTICS,63.7664116,3826,3826,3539907000,908348200,4615186000,2.7188,1.0472,0.7377999,14.40655,96.07344
+2025-01-27 21:22:10.752 - Main Thread ->  Elastic http response error ServiceUnavailable: {"ok":false,"message":"The requested resource is currently unavailable."}
+
+2025-01-27 21:22:11.984 - Main Thread ->  RenderOptionsPart2.Preset = Custom
+2025-01-27 21:22:11.984 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FSR
+  ArmorBevel = Enabled
+  Raytracing = Medium
+  Shadow = High
+  Lighting = High
+  Texture = High
+  Terrain = High
+  Parallax = High
+  Particles = High
+  RenderingDistance = High
+}
+
+2025-01-27 21:22:11.985 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FXAA
+  ArmorBevel = Enabled
+  Raytracing = Medium
+  Shadow = High
+  Lighting = High
+  Texture = High
+  Terrain = High
+  Parallax = High
+  Particles = High
+  RenderingDistance = High
+}
+
+2025-01-27 21:22:11.985 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FXAA
+  ArmorBevel = Disabled
+  Raytracing = Medium
+  Shadow = High
+  Lighting = High
+  Texture = High
+  Terrain = High
+  Parallax = High
+  Particles = High
+  RenderingDistance = High
+}
+
+2025-01-27 21:22:11.986 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FXAA
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = High
+  Lighting = High
+  Texture = High
+  Terrain = High
+  Parallax = High
+  Particles = High
+  RenderingDistance = High
+}
+
+2025-01-27 21:22:11.986 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FXAA
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Medium
+  Lighting = High
+  Texture = High
+  Terrain = High
+  Parallax = High
+  Particles = High
+  RenderingDistance = High
+}
+
+2025-01-27 21:22:11.986 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FXAA
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Medium
+  Lighting = Medium
+  Texture = High
+  Terrain = High
+  Parallax = High
+  Particles = High
+  RenderingDistance = High
+}
+
+2025-01-27 21:22:11.987 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FXAA
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Medium
+  Lighting = Medium
+  Texture = High
+  Terrain = Medium
+  Parallax = High
+  Particles = High
+  RenderingDistance = High
+}
+
+2025-01-27 21:22:11.989 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FXAA
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Medium
+  Lighting = Medium
+  Texture = Medium
+  Terrain = Medium
+  Parallax = High
+  Particles = High
+  RenderingDistance = High
+}
+
+2025-01-27 21:22:11.989 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FXAA
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Medium
+  Lighting = Medium
+  Texture = Medium
+  Terrain = Medium
+  Parallax = Low
+  Particles = High
+  RenderingDistance = High
+}
+
+2025-01-27 21:22:11.990 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FXAA
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Medium
+  Lighting = Medium
+  Texture = Medium
+  Terrain = Medium
+  Parallax = Low
+  Particles = Medium
+  RenderingDistance = High
+}
+
+2025-01-27 21:22:11.990 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FXAA
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Medium
+  Lighting = Medium
+  Texture = Medium
+  Terrain = Medium
+  Parallax = Low
+  Particles = Medium
+  RenderingDistance = Medium
+}
+
+2025-01-27 21:22:11.990 - Main Thread ->  RenderOptionsPart2.Preset = Medium
+2025-01-27 21:22:11.990 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FXAA
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Medium
+  Lighting = Medium
+  Texture = Medium
+  Terrain = Medium
+  Parallax = Low
+  Particles = Medium
+  RenderingDistance = Medium
+}
+
+2025-01-27 21:22:12.317 - Main Thread ->  RenderOptionsPart2.Preset = Custom
+2025-01-27 21:22:12.317 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = FXAA
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Medium
+  Lighting = Medium
+  Texture = Medium
+  Terrain = Medium
+  Parallax = Low
+  Particles = Medium
+  RenderingDistance = Medium
+}
+
+2025-01-27 21:22:12.318 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = None
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Medium
+  Lighting = Medium
+  Texture = Medium
+  Terrain = Medium
+  Parallax = Low
+  Particles = Medium
+  RenderingDistance = Medium
+}
+
+2025-01-27 21:22:12.319 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = None
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Low
+  Lighting = Medium
+  Texture = Medium
+  Terrain = Medium
+  Parallax = Low
+  Particles = Medium
+  RenderingDistance = Medium
+}
+
+2025-01-27 21:22:12.320 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = None
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Low
+  Lighting = Low
+  Texture = Medium
+  Terrain = Medium
+  Parallax = Low
+  Particles = Medium
+  RenderingDistance = Medium
+}
+
+2025-01-27 21:22:12.321 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = None
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Low
+  Lighting = Low
+  Texture = Medium
+  Terrain = Low
+  Parallax = Low
+  Particles = Medium
+  RenderingDistance = Medium
+}
+
+2025-01-27 21:22:12.321 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = None
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Low
+  Lighting = Low
+  Texture = Low
+  Terrain = Low
+  Parallax = Low
+  Particles = Medium
+  RenderingDistance = Medium
+}
+
+2025-01-27 21:22:12.321 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = None
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Low
+  Lighting = Low
+  Texture = Low
+  Terrain = Low
+  Parallax = None
+  Particles = Medium
+  RenderingDistance = Medium
+}
+
+2025-01-27 21:22:12.322 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = None
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Low
+  Lighting = Low
+  Texture = Low
+  Terrain = Low
+  Parallax = None
+  Particles = Low
+  RenderingDistance = Medium
+}
+
+2025-01-27 21:22:12.322 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = None
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Low
+  Lighting = Low
+  Texture = Low
+  Terrain = Low
+  Parallax = None
+  Particles = Low
+  RenderingDistance = Low
+}
+
+2025-01-27 21:22:12.322 - Main Thread ->  RenderOptionsPart2.Preset = Low
+2025-01-27 21:22:12.322 - Main Thread ->  Applying render preset: Preset {
+  AntiAliasing = None
+  ArmorBevel = Disabled
+  Raytracing = Disabled
+  Shadow = Low
+  Lighting = Low
+  Texture = Low
+  Terrain = Low
+  Parallax = None
+  Particles = Low
+  RenderingDistance = Low
+}
+
+2025-01-27 21:22:12.404 - Main Thread ->  Elastic http response error ServiceUnavailable: {"ok":false,"message":"The requested resource is currently unavailable."}
+
